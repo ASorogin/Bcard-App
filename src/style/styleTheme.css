@@ -1,0 +1,185 @@
+:root {
+    --light-bg: #ffffff;
+    --light-text: #333333;
+    --light-border: #dddddd;
+    --light-hover: #f0f0f0;
+    --dark-bg: #333333;
+    --dark-text: #ffffff;
+    --dark-border: #555555;
+    --dark-hover: #444444;
+  }
+  
+  body {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  body.light-mode {
+    background-color: var(--light-bg);
+    color: var(--light-text);
+  }
+  
+  body.dark-mode {
+    background-color: var(--dark-bg);
+    color: var(--dark-text);
+  }
+  
+  /* Navbar styles */
+  .light-mode .navbar {
+    background-color: var(--light-bg);
+    border-bottom: 1px solid var(--light-border);
+  }
+  
+  .dark-mode .navbar {
+    background-color: var(--dark-bg);
+    border-bottom: 1px solid var(--dark-border);
+  }
+  
+  .light-mode .navbar-light .navbar-nav .nav-link {
+    color: var(--light-text);
+  }
+  
+  .dark-mode .navbar-dark .navbar-nav .nav-link {
+    color: var(--dark-text);
+  }
+  
+  /* Card styles */
+  .light-mode .card {
+    background-color: var(--light-bg);
+    border-color: var(--light-border);
+  }
+  
+  .dark-mode .card {
+    background-color: var(--dark-bg);
+    border-color: var(--dark-border);
+    color: var(--dark-text);
+  }
+  
+  /* Form styles */
+  .light-mode input,
+  .light-mode textarea,
+  .light-mode select,
+  .light-mode .form-control {
+    background-color: var(--light-bg);
+    color: var(--light-text);
+    border-color: var(--light-border);
+  }
+  
+  .dark-mode input,
+  .dark-mode textarea,
+  .dark-mode select,
+  .dark-mode .form-control {
+    background-color: var(--dark-bg);
+    color: var(--dark-text);
+    border-color: var(--dark-border);
+  }
+  
+  /* Button styles */
+  .light-mode .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .dark-mode .btn-primary {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .light-mode .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .dark-mode .btn-secondary {
+    background-color: #545b62;
+    border-color: #545b62;
+  }
+  
+  /* Table styles */
+  .light-mode .table {
+    color: var(--light-text);
+  }
+  
+  .dark-mode .table {
+    color: var(--dark-text);
+  }
+  
+  .light-mode .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .dark-mode .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  /* Modal styles */
+  .light-mode .modal-content {
+    background-color: var(--light-bg);
+    border-color: var(--light-border);
+  }
+  
+  .dark-mode .modal-content {
+    background-color: var(--dark-bg);
+    border-color: var(--dark-border);
+    color: var(--dark-text);
+  }
+  
+  /* Dropdown styles */
+  .light-mode .dropdown-menu {
+    background-color: var(--light-bg);
+    border-color: var(--light-border);
+  }
+  
+  .dark-mode .dropdown-menu {
+    background-color: var(--dark-bg);
+    border-color: var(--dark-border);
+  }
+  
+  .light-mode .dropdown-item {
+    color: var(--light-text);
+  }
+  
+  .dark-mode .dropdown-item {
+    color: var(--dark-text);
+  }
+  
+  .light-mode .dropdown-item:hover {
+    background-color: var(--light-hover);
+  }
+  
+  .dark-mode .dropdown-item:hover {
+    background-color: var(--dark-hover);
+  }
+  
+  .light-mode footer {
+    background-color: var(--light-bg);
+    color: var(--light-text);
+  }
+  
+  .dark-mode footer {
+    background-color: var(--dark-bg);
+    color: var(--dark-text);
+  }
+  
+  .light-mode footer a {
+    color: var(--light-text);
+  }
+  
+  .dark-mode footer a {
+    color: var(--dark-text);
+  }
+  
+  .light-mode footer a:hover {
+    color: #007bff;
+  }
+  
+  .dark-mode footer a:hover {
+    color: #17a2b8;
+  }
+  
+  .light-mode footer .text-center.p-3 {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .dark-mode footer .text-center.p-3 {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
